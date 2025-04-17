@@ -10,11 +10,10 @@ pipeline {
 
         stage('Build Docker Image') {
             steps {
-                dir('DockerJenkinsExperiment') {
-                    // Use Windows CMD commands
+               
                     bat 'dir'  // Check that Dockerfile is visible
                     bat 'docker build -t my-docker-webapp .'
-                }
+        
             }
         }
 
