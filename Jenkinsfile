@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git branch: 'main', url: 'https://github.com/Anky3238/SEPM-10'
+                git branch: 'main', url: 'https://github.com/siddhesh455patil/SEPM-10'
             }
         }
 
